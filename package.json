@@ -1,19 +1,26 @@
 {
-  "name": "nextflex",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.0.9",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@heroicons/react": "^1.0.2",
+    "@next-auth/firebase-adapter": "^0.0.2-canary.207",
+    "firebase": "^8.7.1",
+    "framer-motion": "^4.1.17",
+    "next": "latest",
+    "next-auth": "^3.29.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "react-responsive-carousel": "^3.2.22",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.0.9"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
   }
 }
